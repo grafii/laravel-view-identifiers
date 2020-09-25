@@ -1,6 +1,6 @@
 {
     "name": "grafii/laravel-view-identifiers",
-    "version": "5.6.0",
+    "version": "5.6.1",
     "description": "A quick way to set global classes and global id to main HTML DOM element in Laravel 5.",
     "keywords": [
         "laravel",

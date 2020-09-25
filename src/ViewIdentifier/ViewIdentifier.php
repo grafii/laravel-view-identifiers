@@ -1,14 +1,14 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier;
+namespace Grafii\ViewIdentifier;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Route;
-use Hypnotract\ViewIdentifier\Identifiers;
+use Grafii\ViewIdentifier\Identifiers;
 
 /**
  * Class ViewIdentifier
- * @package Hypnotract\ViewIdentifier
+ * @package Grafii\ViewIdentifier
  */
 class ViewIdentifier
 {

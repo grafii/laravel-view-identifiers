@@ -1,10 +1,10 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier\Identifiers;
+namespace Grafii\ViewIdentifier\Identifiers;
 
 /**
  * Class IdIdentifier
- * @package Hypnotract\ViewIdentifier\Identifiers
+ * @package Grafii\ViewIdentifier\Identifiers
  */
 class IdIdentifier
 {
@@ -22,7 +22,7 @@ class IdIdentifier
     public function set($id, bool $reset = false): void
     {
         if (!isset($this->id) || $reset) {
-            $item = new \Hypnotract\ViewIdentifier\Identifier((string) $id, 'id');
+            $item = new \Grafii\ViewIdentifier\Identifier((string) $id, 'id');
 
             $this->id = $item->get();
         }

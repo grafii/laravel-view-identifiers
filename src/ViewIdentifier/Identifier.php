@@ -1,12 +1,12 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier;
+namespace Grafii\ViewIdentifier;
 
 use Illuminate\Support\Str;
 
 /**
  * Class Identifier
- * @package Hypnotract\ViewIdentifier
+ * @package Grafii\ViewIdentifier
  */
 class Identifier
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier;
+namespace Grafii\ViewIdentifier;
 
 /**
  * Class ServiceProvider
- * @package Hypnotract\ViewIdentifier
+ * @package Grafii\ViewIdentifier
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

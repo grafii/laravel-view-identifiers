@@ -1,12 +1,12 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier\Identifiers;
+namespace Grafii\ViewIdentifier\Identifiers;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class ClassIdentifier
- * @package Hypnotract\ViewIdentifier\Identifiers
+ * @package Grafii\ViewIdentifier\Identifiers
  */
 class ClassIdentifier
 {
@@ -30,7 +30,7 @@ class ClassIdentifier
      */
     public function push($class): void
     {
-        $item = new \Hypnotract\ViewIdentifier\Identifier((string) $class, 'class');
+        $item = new \Grafii\ViewIdentifier\Identifier((string) $class, 'class');
 
         $this->classes->push($item->get());
     }

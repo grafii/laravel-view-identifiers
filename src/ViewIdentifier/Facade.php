@@ -1,10 +1,10 @@
 <?php
 
-namespace Hypnotract\ViewIdentifier;
+namespace Grafii\ViewIdentifier;
 
 /**
  * Class Facade
- * @package Hypnotract\ViewIdentifier
+ * @package Grafii\ViewIdentifier
  */
 class Facade extends \Illuminate\Support\Facades\Facade
 {
